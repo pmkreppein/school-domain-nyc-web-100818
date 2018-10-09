@@ -15,5 +15,7 @@ end
     @roster[g]
   end
   
-  
+  def self.sort
+    @roster.sort_by
+  end
 end
