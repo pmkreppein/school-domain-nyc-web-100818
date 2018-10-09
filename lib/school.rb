@@ -10,4 +10,8 @@ end
     @roster[grade] ||= []
     @roster[grade] << student
 end
+
+  def grade(g)
+    @roster[g]
+  end
 end
