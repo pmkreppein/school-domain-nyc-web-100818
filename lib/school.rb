@@ -16,6 +16,6 @@ end
   end
   
   def self.sort
-    @roster.sort_by
+    @roster.sort_by{|student, grade| grade}
   end
 end
