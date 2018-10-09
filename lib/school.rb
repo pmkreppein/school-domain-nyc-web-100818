@@ -20,5 +20,6 @@ end
     @roster.each do |grade, kids|
       sorted_list[grade] = kids.sort
     end
+    return sorted_list
   end
 end
