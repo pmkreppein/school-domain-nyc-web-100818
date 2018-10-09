@@ -17,6 +17,6 @@ end
   
   def sort
     sorted_list = {}
-    @roster.sort_by{|student, grade| grade}
+    
   end
 end
